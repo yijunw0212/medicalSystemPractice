@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4"   xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>CheckShopServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.CheckShopServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckShopServlet</servlet-name>
+    <url-pattern>/servlet/CheckShopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CheckTableServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.CheckTableServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>DrugIntroductionServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.DrugIntroductionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckTableServlet</servlet-name>
+    <url-pattern>/servlet/CheckTableServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>DrugIntroductionServlet</servlet-name>
+    <url-pattern>/servlet/DrugIntroductionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CheckHospitalsServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.CheckHospitalsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckHospitalsServlet</servlet-name>
+    <url-pattern>/servlet/CheckHospitalsServlet</url-pattern>
+  </servlet-mapping>
+   
+  
+  <!-- <servlet-mapping>
+    <servlet-name>ChangeTableServlet</servlet-name>
+    <url-pattern>/servlet/ChangeTableServlet</url-pattern>
+  </servlet-mapping> -->
+  <filter>
+    <filter-name>EF</filter-name>
+    <filter-class>com.amaker.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EF</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

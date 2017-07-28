@@ -1,0 +1,200 @@
+2011-12-26 9:56:39 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_18\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle9\product\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;F:\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;D:\Program Files\TortoiseSVN\bin
+2011-12-26 9:56:39 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8081
+2011-12-26 9:56:39 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1376 ms
+2011-12-26 9:56:39 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-12-26 9:56:39 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.32
+2011-12-26 9:56:39 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2011-12-26 9:56:40 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2011-12-26 9:56:40 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive woshare.war
+2011-12-26 11:09:05 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_18\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle9\product\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;F:\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;D:\Program Files\TortoiseSVN\bin
+2011-12-26 11:09:06 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8081
+2011-12-26 11:09:06 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 349 ms
+2011-12-26 11:09:06 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-12-26 11:09:06 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.32
+2011-12-26 11:09:06 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2011-12-26 11:09:06 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2011-12-26 11:09:06 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive woshare.war
+2011-12-26 12:20:06 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_18\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle9\product\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;F:\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;D:\Program Files\TortoiseSVN\bin
+2011-12-26 12:20:06 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8081
+2011-12-26 12:20:06 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 336 ms
+2011-12-26 12:20:06 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-12-26 12:20:06 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.32
+2011-12-26 12:20:06 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2011-12-26 12:20:06 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2011-12-26 12:20:06 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive woshare.war
+2011-12-26 12:22:12 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_18\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle9\product\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;F:\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;D:\Program Files\TortoiseSVN\bin
+2011-12-26 12:22:12 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8081
+2011-12-26 12:22:12 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 339 ms
+2011-12-26 12:22:12 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-12-26 12:22:12 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.32
+2011-12-26 12:22:12 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2011-12-26 12:22:12 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2011-12-26 12:22:12 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive woshare.war
+2011-12-26 12:22:12 org.apache.catalina.core.StandardContext start
+严重: Error listenerStart
+2011-12-26 12:22:12 org.apache.catalina.core.StandardContext start
+严重: Context [/woshare] startup failed due to previous errors
+2011-12-26 12:22:12 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory docs
+2011-12-26 12:22:12 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory examples
+2011-12-26 12:22:12 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory ROOT
+2011-12-26 12:22:12 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-8081
+2011-12-26 12:22:12 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8009
+2011-12-26 12:22:12 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/16  config=null
+2011-12-26 12:22:12 org.apache.catalina.startup.Catalina start
+信息: Server startup in 485 ms
+2011-12-26 12:22:15 org.apache.coyote.http11.Http11Protocol pause
+信息: Pausing Coyote HTTP/1.1 on http-8081
+2011-12-26 12:23:26 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_18\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle9\product\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;F:\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;D:\Program Files\TortoiseSVN\bin
+2011-12-26 12:23:26 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8081
+2011-12-26 12:23:26 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 351 ms
+2011-12-26 12:23:26 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-12-26 12:23:26 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.32
+2011-12-26 12:23:26 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2011-12-26 12:23:26 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2011-12-26 12:23:26 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive woshare.war
+2011-12-26 12:23:26 org.apache.catalina.core.StandardContext start
+严重: Error listenerStart
+2011-12-26 12:23:26 org.apache.catalina.core.StandardContext start
+严重: Context [/woshare] startup failed due to previous errors
+2011-12-26 12:23:26 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory docs
+2011-12-26 12:23:26 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory examples
+2011-12-26 12:23:26 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory ROOT
+2011-12-26 12:23:26 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-8081
+2011-12-26 12:23:26 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8009
+2011-12-26 12:23:26 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/16  config=null
+2011-12-26 12:23:26 org.apache.catalina.startup.Catalina start
+信息: Server startup in 416 ms
+2011-12-26 12:23:31 org.apache.coyote.http11.Http11Protocol pause
+信息: Pausing Coyote HTTP/1.1 on http-8081
+2011-12-26 12:25:35 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_18\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle9\product\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;F:\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;D:\Program Files\TortoiseSVN\bin
+2011-12-26 12:25:36 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8081
+2011-12-26 12:25:36 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 345 ms
+2011-12-26 12:25:36 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-12-26 12:25:36 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.32
+2011-12-26 12:25:36 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2011-12-26 12:25:36 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2011-12-26 12:25:36 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive woshare.war
+2011-12-26 12:25:41 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_18\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle9\product\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;F:\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;D:\Program Files\TortoiseSVN\bin
+2011-12-26 12:25:41 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8081
+2011-12-26 12:25:41 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 333 ms
+2011-12-26 12:25:41 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-12-26 12:25:41 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.32
+2011-12-26 12:25:41 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2011-12-26 12:25:41 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2011-12-26 12:25:41 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive woshare.war
+2011-12-26 12:25:54 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_18\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle9\product\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;F:\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;D:\Program Files\TortoiseSVN\bin
+2011-12-26 12:25:54 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8081
+2011-12-26 12:25:54 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 411 ms
+2011-12-26 12:25:54 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-12-26 12:25:54 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.32
+2011-12-26 12:25:54 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2011-12-26 12:25:55 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2011-12-26 12:25:55 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive woshare.war
+2011-12-26 14:31:19 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_18\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle9\product\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;F:\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;D:\Program Files\TortoiseSVN\bin
+2011-12-26 14:31:20 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8081
+2011-12-26 14:31:20 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 335 ms
+2011-12-26 14:31:20 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-12-26 14:31:20 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.32
+2011-12-26 14:31:20 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2011-12-26 14:31:20 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2011-12-26 14:31:20 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive woshare.war
+2011-12-26 14:43:04 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_18\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle9\product\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\NVIDIA Corporation\PhysX\Common;F:\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;D:\Program Files\TortoiseSVN\bin
+2011-12-26 14:43:04 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-8081
+2011-12-26 14:43:04 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 331 ms
+2011-12-26 14:43:04 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-12-26 14:43:04 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.32
+2011-12-26 14:43:04 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2011-12-26 14:43:04 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2011-12-26 14:43:04 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive woshare.war

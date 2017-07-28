@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dip" 
+    android:background="#FFFFFF"
+    >
+    
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="医师列表"
+        android:layout_centerInParent="true"
+        />
+    
+    <Button
+        android:id="@+id/map"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="管理我的预约"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        ></Button>
+    
+</RelativeLayout>
+
+
+
+

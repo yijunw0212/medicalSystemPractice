@@ -1,0 +1,24 @@
+2011-11-7 10:10:24 com.mchange.v2.c3p0.impl.NewPooledConnection logCloseExceptions
+信息: [c3p0] Exceptions occurred while trying to close a PooledConnection's resources normally.
+2011-11-7 10:10:24 com.mchange.v2.c3p0.impl.NewPooledConnection logCloseExceptions
+信息: [c3p0] NewPooledConnection close Exception.
+java.sql.SQLException: Io 异常: Connection reset by peer: socket write error
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:134)
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:179)
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:334)
+	at oracle.jdbc.driver.OracleConnection.close(OracleConnection.java:1478)
+	at com.mchange.v2.c3p0.impl.NewPooledConnection.close(NewPooledConnection.java:549)
+	at com.mchange.v2.c3p0.impl.NewPooledConnection.close(NewPooledConnection.java:234)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.destroyResource(C3P0PooledConnectionPool.java:470)
+	at com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask.run(BasicResourcePool.java:964)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+2011-11-7 10:10:24 com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask run
+警告: Failed to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@d2294b
+java.sql.SQLException: Some resources failed to close properly while closing com.mchange.v2.c3p0.impl.NewPooledConnection@d2294b
+	at com.mchange.v2.c3p0.impl.NewPooledConnection.close(NewPooledConnection.java:571)
+	at com.mchange.v2.c3p0.impl.NewPooledConnection.close(NewPooledConnection.java:234)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.destroyResource(C3P0PooledConnectionPool.java:470)
+	at com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask.run(BasicResourcePool.java:964)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+2011-11-7 11:15:48 org.apache.coyote.http11.Http11Protocol pause
+信息: Pausing Coyote HTTP/1.1 on http-8081

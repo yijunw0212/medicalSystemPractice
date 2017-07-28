@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+	<!-- 配置初始化servlet,在web容器加载的时候自动加载配置文件，如果不是web程序，这个部分就需要通过开发接口来初始化了 -->
+
+	<servlet> <servlet-name>proxoolInitialServlet</servlet-name>
+		<servlet-class>
+			org.logicalcobwebs.proxool.configuration.ServletConfigurator
+		</servlet-class>
+		<init-param> 
+			<param-name>xmlFile</param-name>
+			<param-value>WEB-INF/proxool.xml</param-value> </init-param>
+		<load-on-startup>1</load-on-startup> 
+	</servlet>
+	
+	<servlet>
+		<servlet-name>test</servlet-name>
+		<servlet-class>com.mythllink.servlet.SimpleHttpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>test</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+
+	<!--配置监控servlet,其实如果不想监控的话，可以不配-->
+	<servlet>
+		<servlet-name>dbpoolAdmin</servlet-name>
+		<servlet-class>org.logicalcobwebs.proxool.admin.servlet.AdminServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>dbpoolAdmin</servlet-name>
+		<url-pattern>/pool</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 首页推荐商家 -->
+	<servlet>
+		<servlet-name>RecommBusiness</servlet-name>
+		<servlet-class>com.mythllink.servlet.business.RecommBusinessServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RecommBusiness</servlet-name>
+		<url-pattern>/getRecommBusiness</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 首页推荐活动 -->
+	<servlet>
+		<servlet-name>RecommActivity</servlet-name>
+		<servlet-class>com.mythllink.servlet.activity.RecommActivityServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RecommActivity</servlet-name>
+		<url-pattern>/getRecommActivities</url-pattern>
+	</servlet-mapping>
+	<!-- 首页用户推荐查询 -->
+	<servlet>
+		<servlet-name>userRecomment</servlet-name>
+		<servlet-class>com.mythllink.servlet.user.UserRecommentToHome</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userRecomment</servlet-name>
+		<url-pattern>/getUserRecomment</url-pattern>
+	</servlet-mapping>
+	<!-- 首页用户推荐插入接口 -->
+	<servlet>
+		<servlet-name>addRecommend</servlet-name>
+		<servlet-class>com.mythllink.servlet.user.AddRecommendToHome</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addRecommend</servlet-name>
+		<url-pattern>/addRecommend</url-pattern>
+	</servlet-mapping>
+	<!-- 用户推荐活动或商家给好友接口 -->
+	<servlet>
+		<servlet-name>addRecommendToFriend</servlet-name>
+		<servlet-class>com.mythllink.servlet.user.AddRecommendToFriend</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addRecommendToFriend</servlet-name>
+		<url-pattern>/addRecommendToFriend</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 用户登录 -->
+	<servlet>
+		<servlet-name>uLogin</servlet-name>
+		<servlet-class>com.mythllink.servlet.user.UserLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>uLogin</servlet-name>
+		<url-pattern>/uLogin</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 用户注册 -->
+	<servlet>
+		<servlet-name>uRegister</servlet-name>
+		<servlet-class>com.mythllink.servlet.user.UserManagerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>uRegister</servlet-name>
+		<url-pattern>/uRegister</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 用户密码修改 -->
+	<servlet>
+		<servlet-name>uUpdatePass</servlet-name>
+		<servlet-class>com.mythllink.servlet.user.UpdateUserPwd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>uUpdatePass</servlet-name>
+		<url-pattern>/uUpdatePass</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 18.	用户好友列表-->
+	<servlet>
+		<servlet-name>getUserFriendList</servlet-name>
+		<servlet-class>com.mythllink.servlet.user.UserFriendList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getUserFriendList</servlet-name>
+		<url-pattern>/getUserFriendList</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 用户注册协议-->
+	<servlet>
+		<servlet-name>getRegProtocol</servlet-name>
+		<servlet-class>com.mythllink.servlet.user.RegProtServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getRegProtocol</servlet-name>
+		<url-pattern>/getRegProtocol</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<!-- 商家查询--> <!-- 活动搜索   -->
+	<servlet>
+		<servlet-name>getSearchResult</servlet-name>
+		<servlet-class>com.mythllink.servlet.business.BusinessSerach</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getSearchResult</servlet-name>
+		<url-pattern>/getSearchResult</url-pattern>
+	</servlet-mapping>
+  <!-- 测试
+	<servlet>
+		<servlet-name>test1</servlet-name>
+		<servlet-class>com.mythllink.test.TestStringBuilderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>test1</servlet-name>
+		<url-pattern>/test1</url-pattern>
+	</servlet-mapping>
+	-->
+	
+	<!-- 商家注册 -->
+	<servlet>
+		<servlet-name>bizRegister</servlet-name>
+		<servlet-class>com.mythllink.servlet.business.BizRegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bizRegister</servlet-name>
+		<url-pattern>/bReg</url-pattern>
+	</servlet-mapping>
+	<!-- 商家详细信息 -->
+	<servlet>
+		<servlet-name>BusinessInfoServlet</servlet-name>
+		<servlet-class>com.mythllink.servlet.business.BusinessInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BusinessInfoServlet</servlet-name>
+		<url-pattern>/getBusinessInfo</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 商家登录 -->
+	<servlet>
+		<servlet-name>bizLogin</servlet-name>
+		<servlet-class>com.mythllink.servlet.business.BizLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bizLogin</servlet-name>
+		<url-pattern>/bLogin</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 商家认证 -->
+	<servlet>
+		<servlet-name>BusinessAuthenticServlet</servlet-name>
+		<servlet-class>com.mythllink.servlet.business.BusinessAuthenticServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BusinessAuthenticServlet</servlet-name>
+		<url-pattern>/bAuth</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 商家修改密码 -->
+	<servlet>
+		<servlet-name>bizModifyPwd</servlet-name>
+		<servlet-class>com.mythllink.servlet.business.BizUpdatePwdServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bizModifyPwd</servlet-name>
+		<url-pattern>/bUpdatePass</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 商家修改详细信息 -->
+	<servlet>
+		<servlet-name>BusinessUpdateServlet</servlet-name>
+		<servlet-class>com.mythllink.servlet.business.BusinessUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BusinessUpdateServlet</servlet-name>
+		<url-pattern>/bUpdateInfo</url-pattern>
+	</servlet-mapping>
+	
+	
+   	<!-- 商家活动详细信息 -->
+	<servlet>
+		<servlet-name>getActivityInfo</servlet-name>
+			<servlet-class>com.mythllink.servlet.activity.ActivityInfoDetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getActivityInfo</servlet-name>
+		<url-pattern>/getActivityInfo</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 商家推送新活动 -->
+	<servlet>
+		<servlet-name>AddActivityServlet</servlet-name>
+		<servlet-class>com.mythllink.servlet.activity.AddActivityServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddActivityServlet</servlet-name>
+		<url-pattern>/addProMov</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 商家推送的活动列表 -->
+	<servlet>
+		<servlet-name>ActivityHistoryListServlet</servlet-name>
+		<servlet-class>com.mythllink.servlet.activity.ActivityHistoryListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ActivityHistoryListServlet</servlet-name>
+		<url-pattern>/getProMovList</url-pattern>
+	</servlet-mapping>
+	<!--  商家活动列表 -->
+	<servlet-mapping>
+		<servlet-name>ActivityHistoryListServlet</servlet-name>
+		<url-pattern>/getBusinessActivityList</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 商家上传图片测试 -->
+	<servlet>
+		<servlet-name>UpImageServlet</servlet-name>
+		<servlet-class>com.mythllink.servlet.UpImageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpImageServlet</servlet-name>
+		<url-pattern>/uploadImage</url-pattern>
+	</servlet-mapping>
+
+	<!--  商家评分接口-->
+	<servlet>
+		<servlet-name>UserEvaluateServlet</servlet-name>
+		<servlet-class>com.mythllink.servlet.user.UserEvaluateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserEvaluateServlet</servlet-name>
+		<url-pattern>/addBusinessScore</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
